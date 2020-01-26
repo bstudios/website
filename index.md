@@ -7,3 +7,7 @@
 #
 layout: home
 ---
+
+# Welcome to Bithell Studios
+
+Bithell Studios is a creative development studio based in the UK run by [James Bithell](https://jbithell.com). 
