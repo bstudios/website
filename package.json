@@ -10,7 +10,7 @@
     "axios": "^0.21.4",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^2.32.13",
-    "gatsby-image": "^2.11.0",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-image": "^1.14.2",
     "gatsby-plugin-manifest": "^2.12.1",
     "gatsby-plugin-offline": "^3.10.2",
