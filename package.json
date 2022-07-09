@@ -7,7 +7,7 @@
   "dependencies": {
     "@fontsource/ibm-plex-mono": "^4.5.10",
     "@fontsource/poppins": "^4.5.8",
-    "axios": "^0.21.4",
+    "axios": "^0.27.2",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^2.32.13",
     "gatsby-image": "^2.11.0",
