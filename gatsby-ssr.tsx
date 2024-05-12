@@ -1,9 +1,13 @@
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from './src/theme';
+import React from 'react';
 
 export const onPreRenderHTML = ({
   getHeadComponents,
   replaceHeadComponents,
+}: {
+  getHeadComponents: Function;
+  replaceHeadComponents: Function;
 }) => {
   const headComponents = getHeadComponents();
   replaceHeadComponents([
@@ -12,6 +16,6 @@ export const onPreRenderHTML = ({
   ]);
 };
 
-export const wrapPageElement = ({ element }) => {
+export const wrapPageElement = ({ element }: { element: React.ReactNode }) => {
   return <MantineProvider theme={theme}>{element}</MantineProvider>;
 };
