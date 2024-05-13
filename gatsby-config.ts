@@ -7,7 +7,7 @@ const config: GatsbyConfig = {
     description:
       "Bithell Studios is a creative development studio based in the UK run by James Bithell",
     author: "bstudios",
-    url: "https://bithell.studios",
+    siteUrl: "https://bithell.studios",
     image: "/images/defaultImage.png",
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

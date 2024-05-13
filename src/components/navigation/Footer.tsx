@@ -5,8 +5,7 @@ import React from 'react';
 
 export function Footer() {
   return (
-    <div className={classes.footer}>
-      <Container className={classes.inner}>
+     <Container className={classes.inner}>
         Logo
         <Group gap={0} className={classes.links} justify="flex-end" wrap="nowrap">
           <ActionIcon size="lg" color="gray" variant="subtle">
@@ -20,6 +19,5 @@ export function Footer() {
           </ActionIcon>
         </Group>
       </Container>
-    </div>
   );
 }
