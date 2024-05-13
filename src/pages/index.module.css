@@ -1,0 +1,12 @@
+.root {
+  padding-top: rem(80px);
+  padding-bottom: rem(80px);
+  text-align: center;
+}
+
+.description {
+  max-width: rem(500px);
+  margin: auto;
+  margin-top: var(--mantine-spacing-xl);
+  margin-bottom: calc(1.5 * var(--mantine-spacing-xl));
+}
