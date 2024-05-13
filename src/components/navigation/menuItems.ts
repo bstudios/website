@@ -1,6 +1,4 @@
 export const menuItems = [
-  { link: '/about', label: 'Features' },
-  { link: '/pricing', label: 'Pricing' },
-  { link: '/learn', label: 'Learn' },
-  { link: '/community', label: 'Community' },
+  { link: '/contact', label: 'Contact' },
+  { link: 'https://status.bithell.studio/', label: 'Service Status' },
 ];

@@ -1,6 +1,5 @@
-import { useState } from 'react';
-import { Container, Group, Burger } from '@mantine/core';
-import { useDisclosure } from '@mantine/hooks';
+import { Container, Group, Burger, Image } from '@mantine/core';
+import Logo from "./../../images/StudiosLogo.svg";
 import * as classes from './Header.module.css';
 import React from 'react';
 import { menuItems } from './menuItems';
@@ -23,7 +22,7 @@ export function Header({ menuOpened, menuToggle }: { menuOpened: boolean, menuTo
   return (
     
       <Container size="md" className={classes.inner}>
-        Logo
+      <Link to="/"><Image src={Logo} h={40}  /></Link>
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>
