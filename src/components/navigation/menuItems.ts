@@ -1,4 +1,4 @@
 export const menuItems = [
   { link: '/contact', label: 'Contact' },
-  { link: 'https://status.bithell.studio/', label: 'Service Status' },
+  { link: 'https://myapps.microsoft.com/?whr=bithell.studio', label: 'Office 365' }
 ];
