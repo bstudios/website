@@ -10,7 +10,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <AppShell
       header={{ height: 60 }}
-      footer={{ height: 80 }}
       navbar={{
         width: 300,
         breakpoint: 'sm',
@@ -20,8 +19,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     >
       <AppShell.Header><Header menuOpened={menuOpened} menuToggle={menuToggle} /></AppShell.Header>
       <AppShell.Navbar p="md"><MobileNavbar /></AppShell.Navbar>
-      <AppShell.Main>{children}</AppShell.Main>
-      <AppShell.Footer><Footer /></AppShell.Footer>
+      <AppShell.Main>
+        {children}
+        <Footer />
+      </AppShell.Main>
     </AppShell>
   )
 }
