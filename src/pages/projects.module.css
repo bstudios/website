@@ -1,0 +1,13 @@
+.root {
+  padding-top: rem(40px);
+  padding-bottom: rem(80px);
+}
+
+.card {
+  transition: transform 150ms ease, box-shadow 150ms ease;
+
+  @mixin hover {
+    transform: translateY(-3px);
+    box-shadow: var(--mantine-shadow-md);
+  }
+}

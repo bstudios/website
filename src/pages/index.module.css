@@ -1,6 +1,6 @@
 .root {
   padding-top: rem(80px);
-  padding-bottom: rem(80px);
+  padding-bottom: rem(40px);
   text-align: center;
 }
 
@@ -9,4 +9,21 @@
   margin: auto;
   margin-top: var(--mantine-spacing-xl);
   margin-bottom: calc(1.5 * var(--mantine-spacing-xl));
+}
+
+.services {
+  padding-bottom: rem(60px);
+}
+
+.card {
+  transition: transform 150ms ease, box-shadow 150ms ease;
+
+  @mixin hover {
+    transform: translateY(-4px);
+    box-shadow: var(--mantine-shadow-lg);
+  }
+}
+
+.cta {
+  padding-bottom: rem(80px);
 }
