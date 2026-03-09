@@ -1,4 +1,4 @@
-import { AppShell } from "@mantine/core"
+import { AppShell, Box } from "@mantine/core"
 import React from "react"
 import { Header } from "./Header"
 import { Footer } from "./Footer"
@@ -10,6 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <AppShell
       header={{ height: 60 }}
+      footer={{ height: { base: 0, sm: 80 } }}
       navbar={{
         width: 300,
         breakpoint: 'sm',
@@ -19,8 +20,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     >
       <AppShell.Header><Header menuOpened={menuOpened} menuToggle={menuToggle} /></AppShell.Header>
       <AppShell.Navbar p="md"><MobileNavbar /></AppShell.Navbar>
-      <AppShell.Main>{children}</AppShell.Main>
-      <AppShell.Footer><Footer /></AppShell.Footer>
+      <AppShell.Main>
+        {children}
+        <Box hiddenFrom="sm"><Footer /></Box>
+      </AppShell.Main>
+      <AppShell.Footer visibleFrom="sm"><Footer /></AppShell.Footer>
     </AppShell>
   )
 }

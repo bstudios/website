@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "bithell-studios-website",
+  "assets": {
+    "directory": "public",
+  },
+  "compatibility_date": "2026-03-09",
+}
