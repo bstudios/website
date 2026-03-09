@@ -1,6 +1,6 @@
 import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
-import { Center, Container, Image, Text, SimpleGrid, Card, ThemeIcon, Title, Group, Button, Anchor } from "@mantine/core"
+import { Center, Container, Image, Text, SimpleGrid, Card, ThemeIcon, Title, Group, Button } from "@mantine/core"
 import { IconDeviceLaptop, IconCloud, IconTools, IconBuildingStore } from "@tabler/icons-react"
 import { Link } from "gatsby"
 import Logo from "./../images/StudiosLogo.svg";
@@ -17,12 +17,12 @@ const services = [
   {
     icon: IconCloud,
     title: "SaaS Solutions",
-    description: "Cloud-hosted software products including AdamRMS, an advanced rental management system used by organisations worldwide.",
+    description: "Cloud-hosted software products for organisations of all sizes, from small teams to large enterprises.",
   },
   {
     icon: IconTools,
-    title: "Open Source",
-    description: "We believe in open source software. Our flagship product AdamRMS is licensed under AGPL-3.0 and free to self-host.",
+    title: "Custom Development",
+    description: "Bespoke software solutions tailored to your needs, with flexible licensing and deployment options.",
   },
   {
     icon: IconBuildingStore,
@@ -67,14 +67,12 @@ const IndexPage: React.FC<PageProps> = () => {
 
       <Container size="md" className={classes.cta}>
         <Card shadow="sm" radius="md" padding="xl" withBorder>
-          <Title order={3} ta="center" mb="sm">AdamRMS</Title>
+          <Title order={3} ta="center" mb="sm">Our Projects</Title>
           <Text ta="center" c="dimmed" mb="md">
-            Our flagship product is an open source advanced Rental Management System for Theatre, AV &amp; Broadcast.
-            Track assets, manage crews, handle invoicing and run public-facing equipment catalogues — all in one platform.
+            Learn more about the software we build, including AdamRMS — a rental management system for Theatre, AV &amp; Broadcast.
           </Text>
           <Group justify="center" gap="md">
-            <Link to="/projects"><Button variant="filled">Learn More</Button></Link>
-            <Anchor href="https://adam-rms.com" target="_blank" underline="never"><Button variant="light">Visit adam-rms.com</Button></Anchor>
+            <Link to="/projects"><Button variant="filled">View Projects</Button></Link>
           </Group>
         </Card>
       </Container>
