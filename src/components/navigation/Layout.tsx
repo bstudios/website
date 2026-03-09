@@ -10,6 +10,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <AppShell
       header={{ height: 60 }}
+      footer={{ height: 80 }}
       navbar={{
         width: 300,
         breakpoint: 'sm',

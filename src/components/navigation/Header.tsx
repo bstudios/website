@@ -1,4 +1,4 @@
-import { Container, Group, Burger, Image } from '@mantine/core';
+import { Container, Group, Burger, Image, Text } from '@mantine/core';
 import Logo from "./../../images/StudiosLogo.svg";
 import * as classes from './Header.module.css';
 import React from 'react';
@@ -34,7 +34,10 @@ export function Header({ menuOpened, menuToggle }: { menuOpened: boolean, menuTo
   return (
     
       <Container size="md" className={classes.inner}>
-      <Link to="/"><Image src={Logo} h={40}  /></Link>
+      <Group gap="xs" component={Link} to="/" style={{ textDecoration: 'none' }}>
+        <Image src={Logo} h={40} />
+        <Text fw={600} size="sm" c="dark" hiddenFrom="xs">Bithell Studios</Text>
+      </Group>
         <Group gap={5} visibleFrom="xs">
           {items}
         </Group>
