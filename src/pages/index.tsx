@@ -82,6 +82,20 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage
 
-export const Head: HeadFC = () => (
-  <SEO />
+const organizationJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Bithell Studios Ltd",
+  "url": "https://bithell.studios/",
+  "logo": "https://bithell.studios/images/logo/square.png",
+  "email": "support@bithell.studio",
+  "founder": { "@type": "Person", "name": "James Bithell" },
+  "identifier": { "@type": "PropertyValue", "propertyID": "Companies House", "value": "11918238" },
+  "sameAs": ["https://github.com/bstudios"],
+};
+
+export const Head: HeadFC = ({ location }) => (
+  <SEO pathname={location.pathname}>
+    <script type="application/ld+json">{JSON.stringify(organizationJsonLd)}</script>
+  </SEO>
 )

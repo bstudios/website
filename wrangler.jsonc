@@ -3,6 +3,7 @@
   "name": "bithell-studios-website",
   "assets": {
     "directory": "public",
+    "not_found_handling": "404-page",
   },
   "compatibility_date": "2026-03-09",
 }

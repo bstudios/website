@@ -1,0 +1,4 @@
+Contact: mailto:support@bithell.studio
+Expires: 2027-10-18T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://bithell.studios/.well-known/security.txt

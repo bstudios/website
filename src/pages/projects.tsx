@@ -123,6 +123,6 @@ const ProjectsPage: React.FC<PageProps> = () => {
 
 export default ProjectsPage
 
-export const Head: HeadFC = () => (
-  <SEO title="Projects" description="Software projects built by Bithell Studios, including AdamRMS — a rental management system for Theatre, AV and Broadcast." />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="Projects" pathname={location.pathname} description="Software projects built by Bithell Studios, including AdamRMS — a rental management system for Theatre, AV and Broadcast." />
 )
