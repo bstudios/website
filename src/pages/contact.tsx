@@ -59,6 +59,6 @@ const ContactPage: React.FC<PageProps> = () => {
 
 export default ContactPage
 
-export const Head: HeadFC = () => (
-  <SEO title="Contact" />
+export const Head: HeadFC = ({ location }) => (
+  <SEO title="Contact" pathname={location.pathname} />
 )

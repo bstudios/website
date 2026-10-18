@@ -2,6 +2,10 @@ import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import { theme } from './src/theme';
 import React from 'react';
 
+export const onRenderBody = ({ setHtmlAttributes }: { setHtmlAttributes: Function }) => {
+  setHtmlAttributes({ lang: "en-GB" });
+};
+
 export const onPreRenderHTML = ({
   getHeadComponents,
   replaceHeadComponents,

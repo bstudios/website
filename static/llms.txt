@@ -1,0 +1,16 @@
+# Bithell Studios
+
+> Bithell Studios Ltd is a creative development studio based in the UK, run by James Bithell. It builds websites, apps, SaaS products and peripherals, with a focus on the live events and entertainment industry.
+
+Registered in England and Wales, company number 11918238.
+
+## Pages
+
+- [Home](https://bithell.studios/): What the studio does — websites and apps, SaaS, custom development, and tools for theatre, AV and broadcast.
+- [Projects](https://bithell.studios/projects/): Software built by the studio, including AdamRMS, a rental management system for theatre, AV and broadcast.
+- [Contact](https://bithell.studios/contact/): Email, support tickets and GitHub.
+
+## Elsewhere
+
+- [AdamRMS](https://adam-rms.com): Rental management system for theatre, AV and broadcast.
+- [GitHub](https://github.com/bstudios): Open-source code from Bithell Studios.

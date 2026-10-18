@@ -1,0 +1,15 @@
+{
+  "name": "Bithell Studios",
+  "short_name": "Bithell Studios",
+  "description": "Bithell Studios is a creative development studio based in the UK run by James Bithell",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#f66d90",
+  "icons": [
+    { "src": "/images/logo/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/images/logo/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/images/logo/logo.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
